@@ -25,7 +25,7 @@ El video pitch se encuentra con el nombre de BlackMamba_VideoPitch_Final.</h4>
 <h3> Cómo correr el código </h3>
 Contamos con 2 notebooks con una funcionalidad distinta cada uno.
 <ul>
-  <li>El notebook titulado 'RIIA Detección de Objetos" requiere un script de python titulado "...". En este script se encuentras las funciones necesarias para YOLOv5. El contenido del notebook está disponible para correrse directamente, sólo se tendría que cambiar la ruta de ubicación de los archivos. Finalmente nos arroja el archivo csv con los contenidos solicitados.</li>
+  <li>El notebook titulado 'RIIA Detección de Objetos" requiere un script de python titulado "detect.py". En este script se encuentras las funciones necesarias para YOLOv5. El contenido del notebook está disponible para correrse directamente, sólo se tendría que cambiar la ruta de ubicación de los archivos. Finalmente nos arroja el archivo csv con los contenidos solicitados en la carpeta "testset" que se genera a partir del directorio local.</li>
   <li>Hay dos notebooks destinados a limpieza de imágenes, uno donde se muestra el proceso de entrenamiento titulado como "UNet_enhance/UNetMejora_training.ipynb" y otro que funciona como demostracion "UNet_enhance/UNetMejora_demo.ipynb". Para correr el segundo notebook sólo es necesario especificar la ruta de acceso para la carga de las imágenes.</li>
 </ul>
 <h3> Notas </h3>
